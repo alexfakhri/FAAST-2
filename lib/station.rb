@@ -12,4 +12,8 @@ def touch_in(passenger)
 	@passengers << passenger
 end
 
+def touch_out(passenger)
+	@passengers.delete(passenger)
+	end
+
 end
